@@ -3,12 +3,9 @@
 A simple URL shortener built with Go using Base62 encoding. 
 
 ## Usage
-
-    ```
     go run main.go
 
     The server will start running at `http://localhost:3000`.
-    ```
 Send a `POST` request to `/short-url` with the long URL you want to shorten. For example:
 
 ## Bash
